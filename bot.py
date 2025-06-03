@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Send me your message, and I'll forward it to the admin for review."
     )
 
-BOT_TOKEN = '8118183259:AAFPZvmFRhhE_t5MKM0ZpaAe0j1uSeBF1ME'
+BOT_TOKEN = 'TOKEN GOES HERE'
 
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
