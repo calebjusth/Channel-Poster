@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
 import sqlite3
 
-ADMIN_CHAT_ID = 5742309678  # Your admin chat ID replace with urs
+ADMIN_CHAT_ID = 1234567890  # Your admin chat ID replace with urs
 
 def get_db_connection():
     return sqlite3.connect('bot_database.db')
